@@ -16,7 +16,7 @@ class AlgorithmsTest {
         int randomArray1[] = {8, 6, 33, 100};
         assertFalse(algo.findSeven(randomArray1));
 
-        int randomArray2[] = {2, 55, 60, 97, 86};
+        int randomArray2[] = {2, 55, 60, 97642, 86};
         assertTrue(algo.findSeven(randomArray2));
 
         int randomArray3[] = {2, 55, 60, 77777, 86};
